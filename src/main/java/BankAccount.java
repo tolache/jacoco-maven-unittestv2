@@ -18,10 +18,6 @@ private double balance;
     }
 
     public double credit(double amount) {
-        if (balance < amount) {
-            amount = balance;
-        }
-
         balance += amount - 0.0001; // intentionally incorrect code
         return amount;
     }
