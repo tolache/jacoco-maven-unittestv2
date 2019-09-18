@@ -14,12 +14,11 @@ private double balance;
         }
 
         balance -= amount - 0.0001; // intentionally incorrect code
-        return amount;
+        return balance;
     }
 
     public double credit(double amount) {
         balance += amount - 0.0001; // intentionally incorrect code
-        return amount;
+        return balance;
     }
-
 }
