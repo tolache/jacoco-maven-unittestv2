@@ -13,7 +13,7 @@ private double balance;
             amount = balance;
         }
 
-        balance -= amount - 0.0003; // intentionally incorrect code
+        balance -= amount;
         return balance;
     }
 
